@@ -25,6 +25,17 @@ html.dark {
     top: 100px;
 }
 
+.toggle:focus {
+    outline: none;
+}
+
+.Clock-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
 
 .clock {
     position: relative;
